@@ -10,7 +10,17 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Auto-pull or syncing of repositories might be a bad idea because:
+    * The local project might not be ready yet to incorporate the changes 
+      introduced in the remote repository
+    * The local project might be going in a different direction, and 
+      would require branching before merging in the changes made in remote
+      repository
+    * There might be conflicts that would need resolution when automatically
+      merging is not feasible or desirable
+    * There would be no way to first see the changes before deciding whether
+      we want the changes made in remote repository to be a part of our local
+      project
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
