@@ -51,4 +51,13 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    We would want to use branches when we are working on a collaborative project,
+    so that the workflow can be divided, with each team member doing their bit on
+    a separate branch, and making a pull request, when they are done. This helps 
+    keep incomplete features out of the master and allows everyone to integrate
+    them when completed into their own branch.
+        
+    This approach, thus, has the benefit of making the master branch clean and always 
+    functional, while allowing development to take place in parallel. The simple 
+    (or 'branch-less') approach has the benefit of lacking the complexity introduced 
+    by the additional steps involved in the former approach.
