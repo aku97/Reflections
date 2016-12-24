@@ -35,7 +35,10 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    We might not always want to pull changes as the occur in the GitHub repository.
+    So, if we have a copy of the remote stored locally, we can do what needs to be
+    done (branching, optimization etc.) in order to make our project ready to 
+    merge the remote changes.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
